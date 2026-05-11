@@ -14,3 +14,5 @@ print(f"Multiplicação: {4.9} * {2.9} = {4.9*2.9}")
 print(f"Divisão: {4.9} / {2.9} = {4.9/2.9}") 
 
 # ** (potenciação)
+print(f"Potenciação: {4.9} ** {2.9} = {4.9**2.9}") 
+
