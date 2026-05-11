@@ -12,4 +12,6 @@ print(f"Multiplicação: {5} * {5} = {5*5}")
 
 #        // (divisão inteira)
 print(f"Divisão Inteira: {5} // {5} = {5//5}")
+
 #        % (módulo - resto da divisão)
+print(f"Divisão Inteira: {5} % {2} = {5%2}")
