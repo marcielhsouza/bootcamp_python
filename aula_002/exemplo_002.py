@@ -8,5 +8,7 @@ print(f"Adição: {4.9} + {4.9} = {4.9+4.9}")
 print(f"Subtração: {4.9} - {2.9} = {4.9-2.9}")  
 
 # * (multiplicação)
+print(f"Subtração: {4.9} * {2.9} = {4.9*2.9}")  
+
 # / (divisão)
 # ** (potenciação)
