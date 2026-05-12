@@ -2,13 +2,17 @@
 
 # 001 - Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-num1 = int(input("Insira o primeiro número: "))
-num2 = int(input("Insira o segundo número: "))
-soma = num1 + num2
-print(f"A soma dos dois números digitados pelo usuário é: {soma}")
-
+# num1 = int(input("Insira o primeiro número: "))
+# num2 = int(input("Insira o segundo número: "))
+# soma = num1 + num2
+# print(f"A soma dos dois números digitados pelo usuário é: {soma}")
 
 # 002 - Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+num = int(input("Insira um número: "))
+resto_resultado = num % 5 
+print(f"O resto da divisão por 5 é: {resto_resultado}")
+
 # 003 - Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 004 - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 005 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
