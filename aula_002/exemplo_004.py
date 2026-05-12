@@ -10,5 +10,8 @@ print(f"Booleano TRUE com o operador OR '5==5 or 5==5': {5==5 or 5==4}")
 print(f"Booleano FALSE com o operador OR '5==5 or 5==5': {5==9 or 5==4}")
 
 # not (NÃO lógico)
+print(f"Booleano sem o operador NOT '5==5': {5==5}")
+print(f"Booleano com o operador NOT 'not 5==5': {not 5==5}")
+
 # == (igualdade)
 # != (diferença)
