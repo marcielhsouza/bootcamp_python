@@ -12,5 +12,9 @@ print(f"Sem .lower()  = {nome}")
 print(f"Com .lower() = {nome.lower() }")
 
 #  .strip() (remove espaços em branco no início e no final)
+nome = "  MARCIEL  "
+print(f"Sem .strip()  = {nome}")
+print(f"Com .strip() = {nome.strip() }")
+
 #  .split(sep) (divide a string em uma lista, utilizando sep como delimitador)
 #  + (concatenação de strings)
