@@ -22,12 +22,16 @@
 
 # 004 - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-num1 = int(input("Insira o primeiro número: "))
-num2 = int(input("Insira o segundo número: "))
-divisao = num1 / num2
-print(f"A divisão inteira dos dois números digitados pelo usuário é: {divisao}")
+# num1 = int(input("Insira o primeiro número: "))
+# num2 = int(input("Insira o segundo número: "))
+# divisao = num1 / num2
+# print(f"A divisão inteira dos dois números digitados pelo usuário é: {divisao}")
 
 # 005 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+num1 = int(input("Insira um que deseja elevar ao quadrado número: "))
+quadrado = num1 ** 2
+print(f"A o resultado de {num1} elevado a 2 é: {quadrado}")
 
 # Números de Ponto Flutuante (float)
 
