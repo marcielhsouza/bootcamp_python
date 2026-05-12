@@ -17,4 +17,8 @@ print(f"Sem .strip()  = {nome}")
 print(f"Com .strip() = {nome.strip() }")
 
 #  .split(sep) (divide a string em uma lista, utilizando sep como delimitador)
+nome = "MAR/CIEL"
+print(f"Sem .split()  = {nome}")
+print(f"Com .split() = {nome.split(sep="/") }")
+
 #  + (concatenação de strings)
