@@ -14,4 +14,6 @@ print(f"Booleano sem o operador NOT '5==5': {5==5}")
 print(f"Booleano com o operador NOT 'not 5==5': {not 5==5}")
 
 # == (igualdade)
+print(f"Booleano sem o operador '==': {5==5}")
+
 # != (diferença)
