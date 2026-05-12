@@ -1,0 +1,38 @@
+# Inteiros (int)
+
+# 001 - Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+
+num1 = int(input("Insira o primeiro número: "))
+num2 = int(input("Insira o segundo número: "))
+soma = num1 + num2
+print(f"A soma dos dois números digitados pelo usuário é: {soma}")
+
+
+# 002 - Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+# 003 - Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+# 004 - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+# 005 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+# Números de Ponto Flutuante (float)
+
+# 006 - Escreva um programa que receba dois números flutuantes e realize sua adição.
+# 007 - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# 008 - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# 009 - Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+# 010 - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+# Strings (str)
+
+# 011 - Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+# 012 - Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# 013 - Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+# 014 - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+# 015 - Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# Booleanos (bool)
+
+# 016 - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# 017 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# 018 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# 019 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# 020 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
