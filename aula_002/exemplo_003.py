@@ -22,3 +22,5 @@ print(f"Sem .split()  = {nome}")
 print(f"Com .split() = {nome.split(sep="/") }")
 
 #  + (concatenação de strings)
+print(f"Concatenação 'mar'' + 'ciel' = {'mar' + 'ciel'} ")
+
