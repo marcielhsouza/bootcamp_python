@@ -15,13 +15,18 @@
 
 # 003 - Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-num1 = int(input("Insira o primeiro número: "))
-num2 = int(input("Insira o segundo número: "))
-multiplicacao = num1 * num2
-print(f"A multiplicação dos dois números digitados pelo usuário é: {multiplicacao}")
-
+# num1 = int(input("Insira o primeiro número: "))
+# num2 = int(input("Insira o segundo número: "))
+# multiplicacao = num1 * num2
+# print(f"A multiplicação dos dois números digitados pelo usuário é: {multiplicacao}")
 
 # 004 - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+num1 = int(input("Insira o primeiro número: "))
+num2 = int(input("Insira o segundo número: "))
+divisao = num1 / num2
+print(f"A divisão inteira dos dois números digitados pelo usuário é: {divisao}")
+
 # 005 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # Números de Ponto Flutuante (float)
