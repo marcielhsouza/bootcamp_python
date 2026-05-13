@@ -99,14 +99,18 @@
 
 # 015 - Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
-primeiro_nome = input("Digite o priemiro nome: ")
-segundo_mome = input("Digite o segundo nome: ")
-nome_sobrenome = primeiro_nome + ' ' +segundo_mome
-print(f"O nome completo é: {nome_sobrenome}")
+# primeiro_nome = input("Digite o priemiro nome: ")
+# segundo_mome = input("Digite o segundo nome: ")
+# nome_sobrenome = primeiro_nome + ' ' +segundo_mome
+# print(f"O nome completo é: {nome_sobrenome}")
 
 # Booleanos (bool)
 
 # 016 - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+expressao_bool = True and True
+print(f"O serultado da exprssão booleana 'AND' é: {expressao_bool}")
+
 # 017 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 018 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 019 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
