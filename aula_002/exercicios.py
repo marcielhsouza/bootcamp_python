@@ -90,13 +90,19 @@
 
 # 014 - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data = input("Insira uma data (dd/mm/aaaa): ")
-data_sep = data.split('/')
-print(f"Data digitada: {data}")
-print(f"Dia: {data_sep[0]}")
-print(f"Mês: {data_sep[1]}")
-print(f"Ano: {data_sep[2]}")
+# data = input("Insira uma data (dd/mm/aaaa): ")
+# data_sep = data.split('/')
+# print(f"Data digitada: {data}")
+# print(f"Dia: {data_sep[0]}")
+# print(f"Mês: {data_sep[1]}")
+# print(f"Ano: {data_sep[2]}")
+
 # 015 - Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+primeiro_nome = input("Digite o priemiro nome: ")
+segundo_mome = input("Digite o segundo nome: ")
+nome_sobrenome = primeiro_nome + ' ' +segundo_mome
+print(f"O nome completo é: {nome_sobrenome}")
 
 # Booleanos (bool)
 
