@@ -128,9 +128,14 @@
 
 # 019 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
-valor_bool1 = 10
-valor_bool2 = 5
-result_igual = valor_bool1 == valor_bool2
-print(f"O resultado da expressão booleana '==' entre dois valores é: {result_igual}")
+# valor_bool1 = 10
+# valor_bool2 = 5
+# result_igual = valor_bool1 == valor_bool2
+# print(f"O resultado da expressão booleana '==' entre dois valores é: {result_igual}")
 
-# 020 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+# 020 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.]
+
+valor_bool1 = 10
+valor_bool2 = 10
+result_dif = valor_bool1 != valor_bool2
+print(f"O resultado da expressão booleana '!=' entre dois valores é: {result_dif}")
