@@ -108,10 +108,18 @@
 
 # 016 - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
-expressao_bool = True and True
-print(f"O serultado da exprssão booleana 'AND' é: {expressao_bool}")
+valor_bool1 = True
+valor_bool2 = True
+result_bool = valor_bool1 and valor_bool2
+print(f"O resultado da exprssão booleana 'AND' entre dois valores é: {result_bool}")
 
 # 017 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+# valor_bool1 = input("Digite um valor booleano (True/False): ")
+# valor_bool2 = input("Digite outro valor booleano (True/False): ")
+# result_bool = valor_bool1 or valor_bool2
+# print(f"O resultado da exprssão booleana 'OR' entre dois valores é: {result_bool}")
+
 # 018 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 019 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 020 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
