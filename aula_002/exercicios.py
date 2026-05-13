@@ -84,11 +84,18 @@
 
 # 013 - Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
-frase = input("Insira uma frase: ")
-frase_strip = frase.strip()
-print(f"A frase digitada sem espaços (incio e fim): {frase_strip}")
+# frase = input("Insira uma frase: ")
+# frase_strip = frase.strip()
+# print(f"A frase digitada sem espaços (incio e fim): {frase_strip}")
 
 # 014 - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+data = input("Insira uma data (dd/mm/aaaa): ")
+data_sep = data.split('/')
+print(f"Data digitada: {data}")
+print(f"Dia: {data_sep[0]}")
+print(f"Mês: {data_sep[1]}")
+print(f"Ano: {data_sep[2]}")
 # 015 - Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # Booleanos (bool)
