@@ -64,12 +64,18 @@
 
 # 010 - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
-raio = float(input("Digite o raio do circulo: "))
-area_circ = 3.14 * (raio**2)
-print(f"A área to circulo é de : {area_circ}")
+# raio = float(input("Digite o raio do circulo: "))
+# area_circ = 3.14 * (raio**2)
+# print(f"A área to circulo é de : {area_circ}")
 
 # Strings (str)
+
 # 011 - Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+palavra = input("Digite uma plavra que deseja tranforma em maiúscula: ")
+palavra_maiuscula = palavra.upper()
+print(f"A palavra digitada em letras maiúsculas: {palavra_maiuscula}")
+
 # 012 - Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 013 - Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 014 - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
