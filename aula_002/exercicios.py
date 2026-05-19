@@ -145,16 +145,27 @@
 # garantir que a entrada seja numérica, tratando qualquer ValueError. 
 # Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 
-try:
-   temp_celcius = float(input("Digite a temperatura (Celsius): "))
-   fahrenheit = (temp_celcius * 1.8) + 32
-   print(f"A temperatura digitada (Celsius) é de {fahrenheit} em Fahrenheit")
-except ValueError as e:
-    print("Digite um número válido.")
+# try:
+#    temp_celcius = float(input("Digite a temperatura (Celsius): "))
+#    fahrenheit = (temp_celcius * 1.8) + 32
+#    print(f"A temperatura digitada (Celsius) é de {fahrenheit} em Fahrenheit")
+# except ValueError as e:
+#     print("Digite um número válido.")
 
 # 022 - Verificador de Palíndromo 
 # Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). 
 # Utilize try-except para garantir que a entrada seja uma string. Dica: Utilize a função isinstance() para verificar o tipo da entrada.
+
+palavra_frase = input("Digite uma palavra ou frase: ")
+if not palavra_frase.isdigit() and not palavra_frase.isspace():
+    formatada = palavra_frase.replace(" ","").lower()
+    if formatada == formatada[::-1]:
+        print(f"A palavra/frase {palavra_frase} é um plindromo")
+    else:
+        print(f"A palavra/frase {palavra_frase} não é um palindromo")
+else:
+    print(f"Valor inválido. Digite uma palavara ou frase.")
+
 
 # 023 - Calculadora Simples 
 # Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. 
