@@ -4,20 +4,31 @@
 # Escreva um programa que verifique esses campos e imprima "Dados válidos" se ambos 
 # forem positivos ou "Dados inválidos" caso contrário.
 
-qtde = -10
-preco = 20
+# qtde = -10
+# preco = 20
 
-if qtde > 0 and preco > 0:
-    print("Dados válidos")
-else:
-     print("Dados inválidos")
-
-
+# if qtde > 0 and preco > 0:
+#     print("Dados válidos")
+# else:
+#      print("Dados inválidos")
 
 ### Exercício 2: Classificação de Dados de Sensor
 # Imagine que você está trabalhando com dados de sensores IoT. 
 # Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
 # como 'Baixa', 'Normal' ou 'Alta'. Considerando que:
+
+# Temperatura < 18°C é 'Baixa'
+# Temperatura >= 18°C e <= 26°C é 'Normal'
+# Temperatura > 26°C é 'Alta'
+
+graus = 12
+if graus < 18:
+    print("Baixa")
+elif graus >= 18 and graus <= 26:
+    print("Normal")
+else:
+    print("Alta")
+
 
 ### Exercício 3: Filtragem de Logs por Severidade
 # Você está analisando logs de uma aplicação e precisa filtrar mensagens 
