@@ -73,22 +73,34 @@
 ### Exercício 6. Contagem de Palavras em Textos
 # Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
 
-texto = "Teste Mat Teste Port Teste Log Teste"
-lista_palavras = texto.split()
-cont_palavras = {}
+# texto = "Teste Mat Teste Port Teste Log Teste"
+# lista_palavras = texto.split()
+# cont_palavras = {}
 
-for palavra in lista_palavras:
-   if palavra in cont_palavras:
-        cont_palavras[palavra] += 1
-   else:
-        cont_palavras[palavra] = 1
-print(cont_palavras)
+# for palavra in lista_palavras:
+#    if palavra in cont_palavras:
+#         cont_palavras[palavra] += 1
+#    else:
+#         cont_palavras[palavra] = 1
+# print(cont_palavras)
 
 ### Exercício 7. Normalização de Dados
 # Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
 
+numeros = [10, 20, 30, 40, 50]
+minimo = min(numeros)
+maximo = max(numeros)
+normalizados = [(x - minimo) / (minimo - maximo) for x in numeros]
+print(normalizados)
+
 ### Exercício 8. Filtragem de Dados Faltantes
 # Objetivo:** Dada uma lista de dicionários representando dados de usuários, filtrar aqueles que têm um campo específico faltando
+
+# usuarios = [
+#     {"nome": "Alice", "email": "alice@example.com"},
+#     {"nome": "Bob", "email": ""},
+#     {"nome": "Carol", "email": "carol@example.com"}
+# ]
 
 ### Exercício 9. Extração de Subconjuntos de Dados
 # Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
