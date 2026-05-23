@@ -138,16 +138,23 @@
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
 
-dados = []
-entrada = ""
-while entrada != "sair":
-    entrada = input("Digite um valor (ou 'sair' para terminar):").lower()
-    if entrada!= "sair":
-        dados.append(entrada)
-print(dados) 
+# dados = []
+# entrada = ""
+# while entrada != "sair":
+#     entrada = input("Digite um valor (ou 'sair' para terminar):").lower()
+#     if entrada!= "sair":
+#         dados.append(entrada)
+# print(dados) 
 
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+
+numero = int(input("Digite um número entre 1 e 10: "))
+
+while numero < 1 or numero > 10:
+    print('Entrada Inválida, número fora do interfalo permitido')
+    numero = int(input("Digite um número entre 1 e 10: "))
+print("Número válido!")
 
 ### Exercício 13. Consumo de API Simulado
 # Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
