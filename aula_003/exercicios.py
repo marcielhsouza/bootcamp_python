@@ -173,21 +173,30 @@
 ### Exercício 14. Tentativas de Conexão
 # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
 
-import time as tm
+# import time as tm
 
-tentativas_maximas = 5
-tentativa = 1
+# tentativas_maximas = 5
+# tentativa = 1
 
-while tentativa <= tentativas_maximas:
-    print(f"Tentativa {tentativa} de {tentativas_maximas}...")
-    tentativa += 1
-    tm.sleep(2)
-    if False:
-        print("Conexão bem-sucedida!")
-        break
-    else:
-        print("Falha ao conectar após várias tentativas.")
-        break
-    
+# while tentativa <= tentativas_maximas:
+#     print(f"Tentativa {tentativa} de {tentativas_maximas}...")
+#     tentativa += 1
+#     tm.sleep(2)
+#     if False:
+#         print("Conexão bem-sucedida!")
+#         break
+#     else:
+#         print("Falha ao conectar após várias tentativas.")
+#         break
+
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.
+
+itens = [1, 2, 3, "parar", 4, 5]
+cont = 0
+while cont < len(itens):
+    if itens[cont] == "parar":
+        print("Parada encontrada, encerrando o processamento.")
+        break
+    print(f"Processando item: {itens[cont]}")
+    cont += 1
