@@ -9,15 +9,18 @@
 
 # 2) Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
 
-linguagens = ["Python", "Java", "C++", "JavaScript"]
-print(linguagens)
-linguagens.remove("C++")
-print(linguagens)
-linguagens.append("Ruby")
-print(linguagens)
-
+# linguagens = ["Python", "Java", "C++", "JavaScript"]
+# print(linguagens)
+# linguagens.remove("C++")
+# print(linguagens)
+# linguagens.append("Ruby")
+# print(linguagens)
 
 # 3) Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. Imprima cada informação.
+
+livro: dict = {'titulo': 'Harry Potter', 'autor': 'J.K Rolling', 'ano publicação': 2023}
+for chave, valor in livro.items():
+    print(f"n{chave}:{valor}")
 
 # 4) Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
 
