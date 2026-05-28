@@ -18,11 +18,30 @@
 
 # 3) Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. Imprima cada informação.
 
-livro: dict = {'titulo': 'Harry Potter', 'autor': 'J.K Rolling', 'ano publicação': 2023}
-for chave, valor in livro.items():
-    print(f"n{chave}:{valor}")
+# livro: dict = {'titulo': 'Harry Potter', 'autor': 'J.K Rolling', 'ano publicação': 2023}
+# for chave, valor in livro.items():
+#     print(f"n{chave}:{valor}")
 
 # 4) Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
+
+    # 4.1) Possivel solução 
+
+# texto: str = "otorrinolaringologista"
+# cont_carateres: dict = {}
+# for letra in texto:
+#     if letra in cont_carateres:
+#         cont_carateres[letra] += 1
+#     else:
+#         cont_carateres[letra] = 1
+# print(cont_carateres)
+
+    # 4.2) Possivel solução 
+
+texto: str = "otorrinolaringologista"
+cont_carateres: dict = {}
+for letra in texto:
+    cont_carateres[letra] = cont_carateres.get(letra,0) + 1
+print(cont_carateres)
 
 # 5) Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
 
