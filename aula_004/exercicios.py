@@ -37,13 +37,22 @@
 
     # 4.2) Possivel solução 
 
-texto: str = "otorrinolaringologista"
-cont_carateres: dict = {}
-for letra in texto:
-    cont_carateres[letra] = cont_carateres.get(letra,0) + 1
-print(cont_carateres)
+# texto: str = "otorrinolaringologista"
+# cont_carateres: dict = {}
+# for letra in texto:
+#     cont_carateres[letra] = cont_carateres.get(letra,0) + 1
+# print(cont_carateres)
 
 # 5) Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
+
+# lista_compra: list = ["maçã", "banana", "cereja"]
+valores_compra: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}      
+# total = sum([valores_compra[prod] for prod in lista_compra])
+# print(total)
+
+print(valores_compra["banana"])
+
+
 
 # Exercícios intermediários e mais avançados
 
