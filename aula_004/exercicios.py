@@ -104,29 +104,27 @@
 
 # Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
 
-produtos = [
-    {"id": 1, "nome": "Teclado", "preço": 100},
-    {"id": 2, "nome": "Mouse", "preço": 80},
-    {"id": 3, "nome": "Monitor", "preço": 300}
-]
+# produtos = [
+#     {"id": 1, "nome": "Teclado", "preço": 100},
+#     {"id": 2, "nome": "Mouse", "preço": 80},
+#     {"id": 3, "nome": "Monitor", "preço": 300}
+# ]
 
-## Atualizar o preço do produto com id 2 para 90
+# ## Atualizar o preço do produto com id 2 para 90
 
-for item in produtos:
-    if item['id'] == 2:
-        item["preço"] = 90
-print(produtos)
+# for item in produtos:
+#     if item['id'] == 2:
+#         item["preço"] = 90
+# print(produtos)
 
 # 12) Fusão de Dicionários
 
 # Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
 
-# dicionario1 = {"a": 1, "b": 2}
-# dicionario2 = {"c": 3, "d": 4}
-
-# dicionario_fundido = {**dicionario1, **dicionario2}
-
-# print(dicionario_fundido)
+dicionario1 = {"a": 1, "b": 2}
+dicionario2 = {"c": 3, "d": 4}
+dicionario_fundido = {**dicionario1, **dicionario2}
+print(dicionario_fundido)
 
 # 13) Filtragem de Dados em Dicionário
 
