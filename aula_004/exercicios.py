@@ -91,12 +91,12 @@
 
 # Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
 
-valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-pares = [x for x in valores if x % 2 == 0]
-impares = [x for x in valores if x % 2 == 1]
-print("Pares:", pares)
-print("Ímpares:", impares)
+# pares = [x for x in valores if x % 2 == 0]
+# impares = [x for x in valores if x % 2 == 1]
+# print("Pares:", pares)
+# print("Ímpares:", impares)
 
 # Exercícios com Dicionários
 
@@ -104,18 +104,18 @@ print("Ímpares:", impares)
 
 # Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
 
-# produtos = [
-#     {"id": 1, "nome": "Teclado", "preço": 100},
-#     {"id": 2, "nome": "Mouse", "preço": 80},
-#     {"id": 3, "nome": "Monitor", "preço": 300}
-# ]
+produtos = [
+    {"id": 1, "nome": "Teclado", "preço": 100},
+    {"id": 2, "nome": "Mouse", "preço": 80},
+    {"id": 3, "nome": "Monitor", "preço": 300}
+]
 
-# # Atualizar o preço do produto com id 2 para 90
-# for produto in produtos:
-#     if produto["id"] == 2:
-#         produto["preço"] = 90
+## Atualizar o preço do produto com id 2 para 90
 
-# print(produtos)
+for item in produtos:
+    if item['id'] == 2:
+        item["preço"] = 90
+print(produtos)
 
 # 12) Fusão de Dicionários
 
