@@ -71,30 +71,27 @@
 
 # Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
 
-pessoas = [
-    {"nome": "Bob", "idade": 25},
-    {"nome": "Alice", "idade": 30},
-    {"nome": "Carol", "idade": 20}
-]
-pessoas.sort(key= lambda pessoas: pessoas["nome"])
-print(pessoas)
+# pessoas = [
+#     {"nome": "Bob", "idade": 25},
+#     {"nome": "Alice", "idade": 30},
+#     {"nome": "Carol", "idade": 20}
+# ]
+# pessoas.sort(key= lambda pessoas: pessoas["nome"])
+# print(pessoas)
 
 # 9) Agregação de Dados
 
 # Objetivo: Dado um conjunto de números, calcular a média.
 
-# numeros = [10, 20, 30, 40, 50]
-# media = sum(numeros) / len(numeros)
-
-# print("Média:", media)
+numeros = [10, 20, 30, 40, 50]
+media = sum(numeros)/len(numeros)
+print(media)
 
 # 10) Divisão de Dados em Grupos
 
 # Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
 
 # valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# pares = [valor for valor in valores if valor % 2 == 0]
-# impares = [valor for valor in valores if valor % 2 != 0]
 
 # print("Pares:", pares)
 # print("Ímpares:", impares)
