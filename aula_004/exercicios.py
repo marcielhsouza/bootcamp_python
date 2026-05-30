@@ -46,24 +46,18 @@
 # 5) Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
 
 # lista_compra: list = ["maçã", "banana", "cereja"]
-valores_compra: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}      
+# valores_compra: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}      
 # total = sum([valores_compra[prod] for prod in lista_compra])
 # print(total)
-
-print(valores_compra["banana"])
-
-
 
 # Exercícios intermediários e mais avançados
 
 # 6) Eliminação de Duplicatas
 
 #Objetivo: Dada uma lista de emails, remover todos os duplicados.
-
-# emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
-# emails_unicos = list(set(emails))
-
-# print(emails_unicos)
+emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
+emails_unicos = set(emails)
+print(emails_unicos)
 
 # 7) Filtragem de Dados
 
