@@ -137,23 +137,23 @@
 # 14) Extração de Chaves e Valores
 
 # Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
-dicionario = {"a": 1, "b": 2, "c": 3}
-chaves = list(dicionario.keys())
-valores = list(dicionario.values())
-print("Chaves:", chaves)
-print("Valores:", valores)
+# dicionario = {"a": 1, "b": 2, "c": 3}
+# chaves = list(dicionario.keys())
+# valores = list(dicionario.values())
+# print("Chaves:", chaves)
+# print("Valores:", valores)
 
 # 15) Contagem de Frequência de Itens
 
 # Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
 
-# texto = "engenharia de dados"
-# frequencia = {}
+texto = "engenharia de dados"
 
-# for caractere in texto:
-#     if caractere in frequencia:
-#         frequencia[caractere] += 1
-#     else:
-#         frequencia[caractere] = 1
+frequencia : dict = {}
 
-# print(frequencia)
+for caractere in texto:
+    if caractere in frequencia:
+        frequencia[caractere] += 1
+    else:
+        frequencia[caractere] = 1
+print(frequencia)
