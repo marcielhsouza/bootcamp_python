@@ -83,18 +83,20 @@
 
 # Objetivo: Dado um conjunto de números, calcular a média.
 
-numeros = [10, 20, 30, 40, 50]
-media = sum(numeros)/len(numeros)
-print(media)
+# numeros = [10, 20, 30, 40, 50]
+# media = sum(numeros)/len(numeros)
+# print(media)
 
 # 10) Divisão de Dados em Grupos
 
 # Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
 
-# valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# print("Pares:", pares)
-# print("Ímpares:", impares)
+pares = [x for x in valores if x % 2 == 0]
+impares = [x for x in valores if x % 2 == 1]
+print("Pares:", pares)
+print("Ímpares:", impares)
 
 # Exercícios com Dicionários
 
