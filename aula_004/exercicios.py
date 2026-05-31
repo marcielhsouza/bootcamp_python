@@ -147,13 +147,27 @@
 
 # Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
 
-texto = "engenharia de dados"
+# texto = "engenharia de dados"
 
-frequencia : dict = {}
+# frequencia : dict = {}
 
-for caractere in texto:
-    if caractere in frequencia:
-        frequencia[caractere] += 1
-    else:
-        frequencia[caractere] = 1
-print(frequencia)
+# for caractere in texto:
+#     if caractere in frequencia:
+#         frequencia[caractere] += 1
+#     else:
+#         frequencia[caractere] = 1
+# print(frequencia)
+
+# 16) Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
+
+def soma_lista(lista_num):
+    return sum(lista_num)
+print(soma_lista([2,10]))
+
+# 17) Crie uma função que receba um número como argumento e retorne True se o número for primo e False caso contrário.
+
+# 18)Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
+
+# 19)Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
+
+# 20)Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
