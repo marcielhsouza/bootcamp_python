@@ -160,11 +160,19 @@
 
 # 16) Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
 
-def soma_lista(lista_num):
-    return sum(lista_num)
-print(soma_lista([2,10]))
+# def soma_lista(lista_num):
+#     return sum(lista_num)
+# print(soma_lista([2,10]))
 
 # 17) Crie uma função que receba um número como argumento e retorne True se o número for primo e False caso contrário.
+
+import sympy as sym
+
+def num_primo(numero):
+    return(sym.isprime(numero))
+
+print(num_primo(11))
+
 
 # 18)Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
 
