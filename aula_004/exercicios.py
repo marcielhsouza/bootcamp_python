@@ -175,13 +175,21 @@
 
 # 18)Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
 
-def inverter_texto(string):
-    return (string[::-1])
-print(inverter_texto("OLa tudo bem ?"))
+# def inverter_texto(string):
+#     return (string[::-1])
+# print(inverter_texto("OLa tudo bem ?"))
 
 # 19)Implemente uma função que receba dois argumentos: uma lista de números e um número. 
 # A função deve retornar todas as combinações de pares na lista que somem ao número dado.
 
+lista_numeros:list = [3,4,2,5]
+numero:int = 7
+numero_combinacao:list = []
+for index, num in enumerate(lista_numeros):
+    for num1 in range(index + 1, len(lista_numeros)):
+        if num+lista_numeros[num1] == numero:
+            numero_combinacao.append((num,lista_numeros[num1]))
+print(numero_combinacao)
 
 
 # 20)Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
