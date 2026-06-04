@@ -182,14 +182,13 @@
 # 19)Implemente uma função que receba dois argumentos: uma lista de números e um número. 
 # A função deve retornar todas as combinações de pares na lista que somem ao número dado.
 
-lista_numeros:list = [3,4,2,5]
-numero:int = 7
-numero_combinacao:list = []
-for index, num in enumerate(lista_numeros):
-    for num1 in range(index + 1, len(lista_numeros)):
-        if num+lista_numeros[num1] == numero:
-            numero_combinacao.append((num,lista_numeros[num1]))
-print(numero_combinacao)
-
+def combinacao_soma(lista_numeros, numero):
+    numero_combinacao:list = []
+    for index, num in enumerate(lista_numeros):
+        for num1 in range(index + 1, len(lista_numeros)):
+            if num+lista_numeros[num1] == numero:
+                numero_combinacao.append((num,lista_numeros[num1]))
+    return numero_combinacao
+print(combinacao_soma([3,4,2,5],7))
 
 # 20)Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
